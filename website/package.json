@@ -1,0 +1,23 @@
+{
+  "name": "platzi-media-player",
+  "version": "1.0.0",
+  "description": "Project of the course of Professional JavaScript at Platzi",
+  "license": "MIT",
+  "author": "Gonzalo Pimentel Ramirez <gonzalo.pimentel.ramirez@gmail.com>",
+  "keywords": [
+    "platzi"
+  ],
+  "scripts": {
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.7"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "dependencies": {
+    "@gonzalopimentel/mediaplayer": "^1.0.0"
+  }
+}
